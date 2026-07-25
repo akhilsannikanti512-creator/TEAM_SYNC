@@ -1,0 +1,99 @@
+.teams-container {
+    padding: 30px;
+}
+
+.teams-container h1 {
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.teams-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.teams-header input {
+    width: 320px;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+.teams-header input:focus {
+    border-color: #2563eb;
+}
+
+.teams-header button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.teams-header button:hover {
+    background: #1d4ed8;
+}
+
+.team-table-container {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+.team-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2563eb;
+    font-size: 24px;
+}
+
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.team-table th {
+    background: #2563eb;
+    color: white;
+    padding: 14px;
+    text-align: center;
+}
+
+.team-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.team-table tr:hover {
+    background: #f8fafc;
+}
+
+.skill-badge {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.skill-badge.good {
+    background: #16a34a;
+}
+
+.skill-badge.average {
+    background: #f59e0b;
+}
+
+.skill-badge.beginner {
+    background: #ef4444;
+}

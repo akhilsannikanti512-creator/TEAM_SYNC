@@ -1,0 +1,46 @@
+.export-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:75vh;
+}
+
+.export-card{
+    background:white;
+    width:500px;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.export-card h1{
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.export-card p{
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+.export-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.export-btn:hover{
+    background:#1d4ed8;
+}
+
+.export-btn:disabled{
+    background:#9ca3af;
+    cursor:not-allowed;
+}
